@@ -1,0 +1,49 @@
+.cardSavedItems {
+  width: 40rem;
+  border: 0.1rem solid #d7d6d1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  padding: 3rem 2rem;
+}
+
+.containerImage {
+  width: 95%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.containerPreview {
+  width: 9rem;
+  height: 6rem;
+  border: 0.1rem solid #f0efeb;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f0efeb;
+}
+
+.textWhishlist {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+
+.containerButton {
+  width: 90%;
+  height: 30%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.delete {
+  color: #c4c4c4;
+  font-size: 2rem;
+}

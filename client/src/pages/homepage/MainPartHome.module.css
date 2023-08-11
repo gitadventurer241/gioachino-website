@@ -1,0 +1,53 @@
+.mainPartBody {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: row;
+  align-items: center;
+  height: 50rem;
+  margin: 5rem 0 5rem 0;
+}
+
+.mainPartLeft {
+  justify-content: left;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.mainPartRight {
+  display: flex;
+  justify-content: right;
+  /* padding-left: 5rem;
+  padding-right: 5rem; */
+}
+
+.mainPartRight img {
+  /* padding-top: 5rem; */
+  width: 80rem;
+  height: 45rem;
+}
+
+.mainPartLeft h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+  margin-left: 0; /* Remove the margin-left property */
+}
+
+.mainPartLeft p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+  margin-left: 0; /* Remove the margin-left property */
+}
+
+.shopNowBtn {
+  width: 20%;
+  height: 4rem;
+  margin-top: 3rem;
+  background-color: black;
+  color: white;
+}

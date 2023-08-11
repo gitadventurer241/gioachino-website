@@ -1,0 +1,229 @@
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.wrap {
+  padding-bottom: 30rem;
+}
+
+.productPage {
+  display: flex;
+  gap: 2rem;
+  padding: var(--spacing);
+}
+
+.imageSection {
+  display: flex;
+  gap: 2rem;
+}
+
+.mainImageContainer {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  width: 55rem;
+}
+
+.mainImageContainer img {
+  height: 62rem;
+}
+
+.mainImg {
+  position: relative;
+  z-index: -1;
+}
+
+.imgRepo {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgRepo img {
+  height: 20rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.productDetails {
+  flex: 1;
+  flex-direction: column;
+  margin-left: 10rem;
+}
+
+.esaurito {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.quantitySection {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 0;
+}
+
+.quantitySpan {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  width: 85%;
+}
+
+.quantitySpan span {
+  right: 0;
+  border: 0.1rem solid black;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 35rem;
+  margin-left: 5rem;
+  padding: 0 2rem;
+}
+
+.quantitySpan p {
+  margin: 0;
+}
+
+.quantityBtn {
+  width: 77%;
+  height: 5rem;
+  margin-top: 5rem;
+  background-color: black;
+  color: white;
+}
+
+.customPrevArr {
+  position: absolute;
+  top: 50%;
+  left: 0.1rem;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #d7d6d1;
+  font-size: 3rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.customNextArr {
+  position: absolute;
+  top: 50%;
+  right: 0.1rem;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #d7d6d1;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.header {
+  margin-bottom: 5rem;
+}
+
+.colorContainer {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  min-height: min-content;
+}
+
+.colorContainer div {
+  margin: 0;
+}
+
+.colorContainer p {
+  margin-bottom: 0;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.colors div {
+  margin: 0;
+}
+
+.colors span {
+  width: 14px;
+  height: 14px;
+  margin: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+.eachColor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eachColor p {
+  margin-top: 1rem;
+}
+
+.blue {
+  background: #7ed6df;
+}
+.green {
+  background: #badc58;
+}
+.yellow {
+  background: #f9ca24;
+}
+.rose {
+  background: #ff7979;
+}
+
+.active {
+  content: "";
+  width: 22px;
+  height: 30px;
+  border: 2px solid #8888;
+  position: absolute;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.sizeContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  min-height: min-content;
+  margin-bottom: 5rem;
+}
+
+.sizeContainer div {
+  margin: 0;
+}
+
+.sizeContainer p {
+  margin-bottom: 0;
+}
+
+.size {
+  width: 7rem;
+  padding: 8px;
+  font-size: 12px;
+  border: 1px solid #010101;
+  border-radius: 0.4rem;
+}
+
+.down {
+  margin-top: 2rem;
+  font-size: 1rem;
+}

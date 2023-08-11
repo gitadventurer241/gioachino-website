@@ -1,0 +1,130 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 2rem; */
+  /* width: 100%; */
+  padding: 2rem 2rem;
+  background-color: #fafafa;
+  z-index: 2;
+}
+
+/* Navbar font */
+.navbarFontLogo {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+  margin-left: 4rem;
+}
+
+.navbarFontLinks {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #000;
+}
+
+/* Navbar elements */
+.navbarFontLogoDiv {
+  text-decoration: none;
+  position: relative;
+}
+
+.navElements {
+  text-decoration: none;
+  position: relative;
+}
+
+.navElements::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000; /* Change to desired color for the line */
+  transition: width 0.3s;
+}
+
+.navElements:hover::after,
+.navElements:focus::after,
+.navElements:active::after {
+  width: 100%;
+}
+
+.navElements:active::after {
+  width: 50%;
+}
+
+/* Navbar centered elements */
+.navbar .centerElements {
+  display: flex;
+  align-items: center;
+  gap: 5rem; /* Adds spacing between the elements */
+}
+
+.catalogue {
+  text-decoration: none;
+  color: #000;
+}
+
+/* dropdown */
+.dropdownElements {
+  margin-top: 5px;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.dropdownDiv {
+  margin-top: 5px;
+}
+
+.dropdown {
+  width: 12rem;
+}
+.navlink {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.userIcon {
+  /* margin-right: 5px; */
+}
+
+/* Icons */
+.navIcon {
+  font-size: 2rem;
+  stroke-width: 2rem;
+  stroke: white;
+}
+
+/* Navbar right elements */
+.navbar .rightElements {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem; /* Adds spacing between the elements */
+  margin-right: 4rem;
+}
+
+/* Navbar dynamic */
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .centerElements {
+    flex-direction: column;
+    gap: 10px; /* Adds spacing between the elements */
+  }
+
+  .navbar .rightElements {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
