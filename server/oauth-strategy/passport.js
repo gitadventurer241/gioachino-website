@@ -9,6 +9,7 @@ const passportLocalMongoose = require("passport-local-mongoose");
 const { userSchemaLinkedin } = require("../models/userLinkedin");
 const { userSchemaFacebook } = require("../models/userFacebook");
 const { userSchemaGoogle } = require("../models/userGoogle");
+const secretManager = require("../readSecrets");
 
 // Linkedin
 userSchemaLinkedin.plugin(passportLocalMongoose);
