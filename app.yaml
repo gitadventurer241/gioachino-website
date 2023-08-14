@@ -10,8 +10,8 @@ automatic_scaling:
 handlers:
   # Serve static files from the React app's build folder
   - url: /
-    static_files: build/index.html
-    upload: build/index.html
+    static_files: client/build/index.html
+    upload: client/build/index.html
 
   - url: /
     static_dir: build
