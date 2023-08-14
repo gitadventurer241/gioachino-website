@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cbecb087.css",
+    "main.js": "/static/js/main.849124d2.js",
+    "static/media/loading.gif": "/static/media/loading.3f6ea0a748e5b44ee2f0.gif",
+    "static/media/persons-dog.jpeg": "/static/media/persons-dog.42609a3cbc1aba659cbb.jpeg",
+    "static/media/empty-cart.svg": "/static/media/empty-cart.a23c6c85e5d7541cf63e926cee83a4fe.svg",
+    "static/media/apple.svg": "/static/media/apple.213914f4d2dc12c25300c5e222a16062.svg",
+    "index.html": "/index.html",
+    "static/media/google.svg": "/static/media/google.73f6e0e118f56ebc1a5c715d69c47735.svg",
+    "static/media/facebook.svg": "/static/media/facebook.a1fbd953fcb2d13f1c69dab85106d147.svg",
+    "main.cbecb087.css.map": "/static/css/main.cbecb087.css.map",
+    "main.849124d2.js.map": "/static/js/main.849124d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbecb087.css",
+    "static/js/main.849124d2.js"
+  ]
+}
