@@ -28,8 +28,8 @@ const HOST = process.env.HOST || "0.0.0.0";
 const secretManager = require("./readSecrets");
 
 async function main() {
-  const mongoUriSecret = await secretManager.fetchSecret("mongo_uri");
-  const sessionSecret = await secretManager.fetchSecret("session_secret");
+  const mongoUriSecret = await secretManager.fetchSecret("mongo_uri") || process.env.MONGO_URI;
+  const sessionSecret = await secretManager.fetchSecret("session_secret") || process.env.SESSION_SECRET;
 
   app.use(
     bodyParser.urlencoded({

@@ -22,7 +22,7 @@ async function fetchSecret(secretName) {
 
     return secretValue;
   } catch (error) {
-    console.error(`Error fetching secret ${secretName}:`, error);
+    console.error(`Error fetching secret ${secretName}:`);
     return null;
   }
 }
